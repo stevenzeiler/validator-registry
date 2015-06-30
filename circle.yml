@@ -5,3 +5,5 @@ machine:
 database:
   override:
     - sequelize db:migrate --url $DATABASE_URL
+  node:
+    version: 0.10.33
